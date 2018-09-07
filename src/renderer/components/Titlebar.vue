@@ -32,7 +32,7 @@
         .label {
             padding-left: 8px;
             padding-right: 10px;
-            font-size: 15px;
+            font-size: 18px;
             color: #41B883;
         }
 

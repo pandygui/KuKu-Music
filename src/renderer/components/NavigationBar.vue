@@ -7,14 +7,13 @@
             <router-link to="/SearchPage">播放列表</router-link>
         </li>
         <li class="nav-item">
-            <router-link to="/">我的收藏</router-link>
+            <router-link to="/SearchPage">我的收藏</router-link>
         </li>
     </div>
 </template>
 
 <style lang="scss">
 .nav {
-    margin-top: 10px;
     width: 170px;
     position: fixed;
     z-index: 300;
