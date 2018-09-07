@@ -1,15 +1,19 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <titlebar></titlebar>
   </div>
 </template>
 
 <script>
+  import titlebar from './components/Titlebar'
+
   export default {
-    name: 'vmusic'
+    name: 'vmusic',
+    components: {
+      titlebar
+    }
   }
 </script>
 
 <style>
-  /* CSS */
 </style>
