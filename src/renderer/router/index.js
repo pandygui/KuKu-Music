@@ -13,7 +13,7 @@ export default new Router({
     {
       path: '/SearchPage',
       name: 'search-page',
-      component: require('@/components/SearchPage')
+      component: require('@/components/SearchPage').default
     },
     {
       path: '*',
