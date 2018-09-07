@@ -23,4 +23,7 @@
 </script>
 
 <style lang="scss">
+.content {
+  margin: 60px 10px 80px 220px;
+}
 </style>
