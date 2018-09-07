@@ -4,7 +4,7 @@
     <main>
       <div class="left-side">
         <span class="title">
-          Welcome to your new project!
+         ssssssssss
         </span>
       </div>
 
@@ -12,9 +12,7 @@
         <div class="doc">
           <div class="title">Getting Started</div>
           <p>
-            electron-vue comes packed with detailed documentation that covers everything from
-            internal configurations, using the project structure, building your application,
-            and so much more.
+            sssssssssssssssssssssss
           </p>
           <button @click="open('https://simulatedgreg.gitbooks.io/electron-vue/content/')">Read the Docs</button><br><br>
         </div>
@@ -30,7 +28,7 @@
 
 <script>
   export default {
-    name: 'landing-page'
+    name: 'search-page'
   }
 </script>
 
