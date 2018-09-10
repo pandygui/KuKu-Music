@@ -33,4 +33,9 @@
 * {
   margin: 0;
 }
+
+@font-face {
+  font-family: Orbitron;
+  src: url('assets/fonts/Orbitron-Regular.ttf');
+}
 </style>

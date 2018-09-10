@@ -33,6 +33,7 @@
             padding-right: 10px;
             font-size: 18px;
             color: #41B883;
+            font-family: 'Orbitron';
         }
 
         img {
