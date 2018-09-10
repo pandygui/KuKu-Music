@@ -1,9 +1,9 @@
 <template>
     <div class="nav">
-        <li class="nav-item">
+        <li class="nav-item" :class="{'active': $router.name === 'home-page' }">
             <router-link to="/">首页</router-link>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" :class="{'active': $router.name === 'search-page' }">
             <router-link to="/SearchPage">播放列表</router-link>
         </li>
         <li class="nav-item">
@@ -19,7 +19,6 @@
     z-index: 300;
     top: 50px;
     font-size: 15px;
-
-    background: linear-gradient(to bottom, #f6f6f6, #f2f2f2);
+    user-select: none;
 }
 </style>

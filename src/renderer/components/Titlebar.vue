@@ -2,7 +2,7 @@
     <div class="titlebar">
         <div class="logo">
             <img src="../assets/logo.svg" alt="">
-            <span class="label">VMusic</span>
+            <span class="label">KuKu Music</span>
         </div>
         <div class="search">
             <input class="form-input" placeholder=" Search" type="text"></input>
@@ -12,7 +12,6 @@
 
 <style lang="scss" scoped>
 .titlebar {
-    z-index: 100;
     background-color: #F2F2F3;
     position: fixed;
     top: 0;
@@ -49,8 +48,8 @@
         width: 250px;
 
         .form-input {
-            height: 20px;
-            font-size: 13px;
+            height: 25px;
+            font-size: 15px;
             color: #5F5F5F;
             padding-left: 5px;
             border-radius: 20px;

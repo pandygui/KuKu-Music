@@ -1,4 +1,4 @@
-# VMusic
+# KuKu Music
 
 > An electron-vue project
 
