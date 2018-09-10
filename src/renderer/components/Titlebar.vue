@@ -2,7 +2,9 @@
     <div class="titlebar">
         <div class="logo">
             <img src="../assets/logo.svg" alt="">
-            <span class="label">KuKu Music</span>
+            <span class="label">KuKu Music</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button @click="$router.go(-1)">←</button>
+            <button @click="$router.go(1)">→</button>
         </div>
         <div class="search">
             <input class="form-input" placeholder=" Search" type="text"></input>
